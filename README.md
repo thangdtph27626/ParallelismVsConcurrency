@@ -197,6 +197,6 @@ Mặt khác,  Parallelism (song song) thường liên quan đến các nhiệm v
 - Tính song song thực hiện đồng thời nhiều tác vụ, trong khi tính đồng thời liên quan đến việc xử lý nhiều tác vụ cùng một lúc.
 - Đồng thời là một cách tiếp cận luồng điều khiển không xác định, trong khi song song có tính chất xác định.
 
-### Concurrency (đồng thời) và Parallelism (song song) cái nào tốt hơn? 
+### 8:Concurrency (đồng thời) và Parallelism (song song) cái nào tốt hơn? 
 
 Phụ thuộc vào nhiệm vụ hiện tại và nguồn lực sẵn có. Có thể đạt được khả năng đồng thời chỉ với một CPU, khiến nó trở nên lý tưởng cho các tình huống có nhiều tác vụ liên quan đến I/O được hưởng lợi từ việc xen kẽ, chẳng hạn như máy chủ web. Tính song song yêu cầu nhiều CPU và hiệu quả hơn khi xử lý các tác vụ tính toán chuyên sâu có thể được chia thành các tác vụ phụ nhỏ hơn.
